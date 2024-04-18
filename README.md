@@ -1,4 +1,7 @@
 # Learning Rust
+
+![image](https://mir-s3-cdn-cf.behance.net/project_modules/disp/7df0bd42774743.57ee5f32bd76e.gif)
+
 This repo is here to follow my progress learning the [Rust](https://www.rust-lang.org/) programming languages.
 
 It contains code for examples and exercises from [The Rust Book](https://doc.rust-lang.org/book/), split into folders corresponding to chapter numbers.
