@@ -12,11 +12,11 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 
 ## Progress
 
-- [x] **1. Getting Started**
+- [x] **1. [Getting Started](1/)**
   - [x] 1.1. Installation
-  - [x] 1.2. Hello, World!
-  - [x] 1.3. Hello, Cargo!
-- [x] **2. Programming a Guessing Game**
+  - [x] 1.2. [Hello, World!](1/hello_world/main.rs)
+  - [x] 1.3. [Hello, Cargo!](1/hello_cargo/src/main.rs)
+- [x] **2. [Programming a Guessing Game](2/guessing_game/src/main.rs)**
 - [ ] **3. Common Programming Concepts**
   - [ ] 3.1. Variables and Mutability
   - [ ] 3.2. Data Types
