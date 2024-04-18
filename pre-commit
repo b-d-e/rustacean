@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cargo recursive fmt
+cargo recursive test
