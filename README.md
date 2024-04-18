@@ -4,7 +4,9 @@
 
 This repo is here to follow my progress learning the [Rust](https://www.rust-lang.org/) programming languages.
 
-It contains code for examples and exercises from [The Rust Book](https://doc.rust-lang.org/book/), split into folders corresponding to chapter numbers.
+It contains code for examples and exercises from [the Rust Book](https://doc.rust-lang.org/book/), split into folders corresponding to chapter numbers. Some bits might correspond to the [interactive version of the Rust Book too](https://rust-book.cs.brown.edu/).
+
+Eventually, I'll bring in some more varied / advanced challenges into here ([Rustlings](https://github.com/rust-lang/rustlings), etc)
 
 I'm writing these in vim (all being well), partially to force myself to not rely on VS Code's autocompletion & linting, and partially to finally memorise vim & tmux's keybindings.
 
