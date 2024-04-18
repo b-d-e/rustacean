@@ -1,7 +1,7 @@
 use std::cmp::Ordering;
 use std::io; // io library comes from standard (std) library - imported like this // use ordering enum (less, greater, equal variants)
-                                                                                  // everything available by default is also from std, and is automatically loaded in from the
-                                                                                  // prelude: https://doc.rust-lang.org/std/prelude/
+             // everything available by default is also from std, and is automatically loaded in from the
+             // prelude: https://doc.rust-lang.org/std/prelude/
 use rand::Rng; // import Rng from random crate, we 'installed' from Cargo.toml dependencies
                // Rng trait defines methods that random number generators implement (see chapter 10)
 
