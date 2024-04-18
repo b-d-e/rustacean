@@ -1,11 +1,12 @@
-use std::io; // io library comes from standard (std) library - imported like this
-use std::cmp::Ordering; // use ordering enum (less, greater, equal variants)
-// everything available by default is also from std, and is automatically loaded in from the
-// prelude: https://doc.rust-lang.org/std/prelude/
+use std::cmp::Ordering;
+use std::io; // io library comes from standard (std) library - imported like this // use ordering enum (less, greater, equal variants)
+                                                                                  // everything available by default is also from std, and is automatically loaded in from the
+                                                                                  // prelude: https://doc.rust-lang.org/std/prelude/
 use rand::Rng; // import Rng from random crate, we 'installed' from Cargo.toml dependencies
-// Rng trait defines methods that random number generators implement (see chapter 10)
+               // Rng trait defines methods that random number generators implement (see chapter 10)
 
-fn main() { // programme entry point
+fn main() {
+    // programme entry point
     println!("Guess the number!"); // macro
 
     // call thread_rng function from rnd to get random generator local to current execution thread
@@ -32,7 +33,7 @@ fn main() { // programme entry point
         // if we hadn't imported io, could do std::io::Stdin
         io::stdin()
             // call read_line method - pass reference (&) of variable to store response in
-            // rust makes it really safe & easy to pass by reference :) 
+            // rust makes it really safe & easy to pass by reference :)
             // references are mimmutable by default, so need '&mut guess' not '& guess'
             // chapter 4 explains references more thoroughly
             .read_line(&mut guess)
@@ -41,13 +42,12 @@ fn main() { // programme entry point
             // states). Here, states are Ok and Err - if Err, operation failed, raise exception below
             // if we don't call expect, program will compile with a warning
             .expect("Failed to read line");
-            // note the above 3 lines of code are really one, with whitespace for readability
-            // could write 'io::stdin().read_line(&mut guess).expect("Failed to read line");'
-            
+        // note the above 3 lines of code are really one, with whitespace for readability
+        // could write 'io::stdin().read_line(&mut guess).expect("Failed to read line");'
 
         // convert guess to unsigned 32 bit number, so we can compare
         // call a few helper functions to tidy up the input - remove whitespace (esp as enter comes in
-        // as \n into the variable). parse method converts string to anoter type. 
+        // as \n into the variable). parse method converts string to anoter type.
         // guess already exists, so here we are shadowing with a new variable - this saves space ch3)
         // we tell compiler type anotation with colon
         // rust will infer from this type that secret_number should be u32 too!! very nice
@@ -62,7 +62,7 @@ fn main() { // programme entry point
         println!("You guessed: {guess}");
 
         // cmp method compares two values, called on anything comparable
-        // takes reference to whatever you want to compare with 
+        // takes reference to whatever you want to compare with
         // returns a variant of Ordering enum
         // use match expression (like python switch) to decide what to do based on what is returned
         // match express made up of 'arms' - pattern to match against and code to run if match
