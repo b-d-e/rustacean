@@ -29,4 +29,27 @@ fn main() {
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
     println!("{THREE_HOURS_IN_SECONDS}");
     println!("Shadowing \n ------------------");
+    // declaring variable with same name as previous - old var is shadowed by new
+    // then compiler always sees second afterwards
+    // shadow by repeating use of let keyword
+    let y = 5;
+    let y = y + 1;
+
+    {
+        let y = y * 2;
+        println!("The value of y in the inner scope is {y}");
+        // inner scope creates a new variable - that does not live beyond scope
+    }
+    println!("The value of y in the outer scope is {y}");
+
+    // versus using mut to create a mutable variable, using let again essentially creates a brand new variable with the old
+    // variable's name. means we can do tings like change the type but keep the name. mut alone
+    // wouldn't allow this.
+    //
+    let spaces = "     ";
+    let spaces = spaces.len(); // by shadowing, we can convert same variable name from string to
+                               // numerical type
+    
 }
+
+
