@@ -49,7 +49,4 @@ fn main() {
     let spaces = "     ";
     let spaces = spaces.len(); // by shadowing, we can convert same variable name from string to
                                // numerical type
-    
 }
-
-

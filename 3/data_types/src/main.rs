@@ -3,21 +3,23 @@ fn main() {
     // below we explore two data type subsets: scalar and compound
     // rust is statically typed, so must know all types at compile time
     // compuler can often infer what is wanted based on the value and how it is used
-    // 
+    //
     // when many types are possible, we must add an annoyation like this:
     let guess: u32 = "42".parse().expect("Not a number!");
     // without the u32 type annoyation, the compuler will give error 'type annotations needed'
-    
+
     println!("Scalar types\n--------------");
     // represents a single value. rust has 4 primary scalar types: integers, floating point
     // numbers, booleans, and characters.
-    println!("Integer types\nLength	Signed	Unsigned
+    println!(
+        "Integer types\nLength	Signed	Unsigned
     \n8-bit	i8	u8
     \n16-bit	i16	u16
     \n32-bit	i32	u32
     \n64-bit	i64	u64
     \n128-bit	i128	u128
-    \narch	isize	usize");
+    \narch	isize	usize"
+    );
 
     // each variant needs to be signed or unsigned, and has an explicit size (i.e., is it possible
     // to be negative, and how many bits it takes up)
@@ -27,12 +29,14 @@ fn main() {
     // isize and usize depends on architecture of machine (64/32 bit system)
     //
     // integer literals can take any of the following forms:
-    println!("Integer literals\n\nNumber literals	Example
+    println!(
+        "Integer literals\n\nNumber literals	Example
     \nDecimal	98_222
     \nHex	0xff
     \nOctal	0o77
     \nBinary	0b1111_0000
-    \nByte (u8 only)	b'A'");
+    \nByte (u8 only)	b'A'"
+    );
     // so which to use? default is i32. use isize or usize primarily when indexig a collection
     //
     // beware of integer overflow. in debug mode, overflow will cause a panic at run time.
@@ -54,7 +58,7 @@ fn main() {
     let x = 2.0; // f64 - default
 
     let y: f32 = 3.0; // f32
-    
+
     // numeric operations
 
     // addition
@@ -78,7 +82,6 @@ fn main() {
     let t = true; // implicit type annotation
 
     let f: bool = false; // explicit type annotation
-
 
     // character type
     // char is most primitive alphabetic type
@@ -132,12 +135,24 @@ fn main() {
     // express as comma seperated list in square brackets
     //
     let a = [1, 2, 3, 4, 5];
-    let months = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"];
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
     let a: [i32; 5] = [1, 2, 3, 4, 5];
     // ^ type written with square brackets, type of elements, semicolon, number of elements
     // can initialise to inclde same value for each element like:
-    let a = [3;5]; // [3,3,3,3,3]
+    let a = [3; 5]; // [3,3,3,3,3]
 
     // to access array elements
     // use square brackets with index. array is chunk of memory allocated on stack
@@ -148,5 +163,4 @@ fn main() {
     // if predefined index, compiler will catch
     // unlike low level languages like c, invalid memory cannot be accessed in rust! whilst still
     // allowing granularity of memory addressing
-
 }
