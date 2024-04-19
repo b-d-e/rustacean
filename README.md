@@ -20,9 +20,9 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [x] 1.3. [Hello, Cargo!](1/hello_cargo/src/main.rs)
 - [x] **2. [Programming a Guessing Game](2/guessing_game/src/main.rs)**
 - [ ] **3. Common Programming Concepts**
-  - [x] 3.1. Variables and Mutability
-  - [x] 3.2. Data Types
-  - [x] 3.3. Functions
+  - [x] 3.1. [Variables and Mutability](3/variables_and_mutability/src/main.rs)
+  - [x] 3.2. [Data Types](3/data_types/src/main.rs)
+  - [x] 3.3. [Functions](3/functions/src/main.rs)
   - [ ] 3.4. Comments
   - [ ] 3.5. Control Flow
 - [ ] **4. Understanding Ownership**
