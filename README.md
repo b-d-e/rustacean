@@ -11,6 +11,7 @@ I'm also working through exercises from [Rustlings](https://github.com/rust-lang
 I'm writing these in vim (all being well), partially to force myself to not rely on VS Code's autocompletion & linting, and partially to finally memorise vim & tmux's keybindings.
 
 ![image](https://mir-s3-cdn-cf.behance.net/project_modules/disp/7df0bd42774743.57ee5f32bd76e.gif)
+
 <sup>_'[Rustacean](https://www.behance.net/gallery/42774743/Rustacean)' animation by [Refracted Color](https://www.behance.net/refractedcolor) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._</sup>
 
 # Progress Tracker
