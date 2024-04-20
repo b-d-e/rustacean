@@ -21,4 +21,4 @@ jobs:
     - name: Check formatting
       run: cargo recursive fmt --verbose
     - name: Run tests
-      run: cargo recurisve test --verbose
+      run: cargo recursive test --verbose
