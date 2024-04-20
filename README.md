@@ -14,8 +14,6 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 
 <sup>_'[Rustacean](https://www.behance.net/gallery/42774743/Rustacean)' animation by [Refracted Color](https://www.behance.net/refractedcolor) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._</sup>
 
----
-
 # Progress Tracker
 
 ## Rust Book
