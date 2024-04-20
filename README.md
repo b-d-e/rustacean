@@ -1,6 +1,5 @@
+# Learning Rust 🦀
 [![Rust](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml/badge.svg)](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml)
-
-# Learning Rust
 
 ![image](https://mir-s3-cdn-cf.behance.net/project_modules/disp/7df0bd42774743.57ee5f32bd76e.gif)
 
