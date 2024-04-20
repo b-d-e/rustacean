@@ -15,8 +15,9 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 <sup>_'[Rustacean](https://www.behance.net/gallery/42774743/Rustacean)' animation by [Refracted Color](https://www.behance.net/refractedcolor) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._</sup>
 
 # Progress Tracker
+_Jump to [Rust Book Examples](#rust-book-examples) or [Rustlings Exercises](#rustlings-exercises)_.
 
-## Rust Book
+## Rust Book Examples
 
 - [x] **1. [Getting Started](1/)**
   - [x] 1.1. Installation
