@@ -112,7 +112,7 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [ ] 20.2. Turning Our Single-Threaded Server into a Multithreaded Server
   - [ ] 20.3. Graceful Shutdown and Cleanup
 
-## Rustlings Exercises
+## Rustlings Exercises
 
 - [ ] **0. Intro**
 - [ ] **1. Variables**
