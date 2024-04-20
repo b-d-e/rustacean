@@ -23,12 +23,12 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [x] 1.2. [Hello, World!](book/1/hello_world/main.rs)
   - [x] 1.3. [Hello, Cargo!](book/1/hello_cargo/src/main.rs)
 - [x] **2. [Programming a Guessing Game](book/2/guessing_game/src/main.rs)**
-- [ ] **3. Common Programming Concepts**
+- [x] **3. Common Programming Concepts**
   - [x] 3.1. [Variables and Mutability](book/3/variables_and_mutability/src/main.rs)
   - [x] 3.2. [Data Types](book/3/data_types/src/main.rs)
   - [x] 3.3. [Functions](book/3/functions/src/main.rs)
   - [x] 3.4. [Comments](book/3/comments/src/main.rs)
-  - [ ] 3.5. Control Flow
+  - [x] 3.5. [Control Flow](book/3/control_flow/src/main.rs)
 - [ ] **4. Understanding Ownership**
   - [ ] 4.1. What is Ownership?
   - [ ] 4.2. References and Borrowing
@@ -112,7 +112,7 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [ ] 20.2. Turning Our Single-Threaded Server into a Multithreaded Server
   - [ ] 20.3. Graceful Shutdown and Cleanup
 
-## Rustlings Exercises
+## Rustlings Exercises
 
 - [ ] **0. Intro**
 - [ ] **1. Variables**
