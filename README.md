@@ -21,6 +21,7 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 </tr>
 <tr>
 <td>
+
 - [x] **1. [Getting Started](1/)**
   - [x] 1.1. Installation
   - [x] 1.2. [Hello, World!](book/1/hello_world/main.rs)
@@ -117,6 +118,7 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 
 </td>
 <td>
+
 - [ ] 00_intro
 - [ ] 01_variables
 - [ ] 02_functions
@@ -141,6 +143,7 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 - [ ] 21_macros
 - [ ] 22_clippy
 - [ ] 23_conversions
+
 </td>
 </tr>
 </table>
