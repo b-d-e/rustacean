@@ -27,7 +27,7 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [x] 3.1. [Variables and Mutability](book/3/variables_and_mutability/src/main.rs)
   - [x] 3.2. [Data Types](book/3/data_types/src/main.rs)
   - [x] 3.3. [Functions](book/3/functions/src/main.rs)
-  - [x] 3.4. Comments
+  - [x] 3.4. [Comments](book/3/comments/src/main.rs)
   - [ ] 3.5. Control Flow
 - [ ] **4. Understanding Ownership**
   - [ ] 4.1. What is Ownership?
