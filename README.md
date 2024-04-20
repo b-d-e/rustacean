@@ -1,7 +1,8 @@
-# Learning Rust 🦀
+# Rustacean 🦀
+
 [![Rust](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml/badge.svg)](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml)
 
-This repo is here to follow my progress learning the [Rust](https://www.rust-lang.org/) programming languages.
+This repo is here to follow my progress learning the [Rust](https://www.rust-lang.org/) programming language.
 
 It contains code for examples and exercises from [the Rust Book](https://doc.rust-lang.org/book/), split into folders corresponding to chapter numbers. Some bits might correspond to the [interactive version of the Rust Book too](https://rust-book.cs.brown.edu/).
 
