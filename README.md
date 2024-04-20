@@ -1,6 +1,7 @@
 # Rustacean 🦀
 
-[![Rust](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml/badge.svg)](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml)
+[![Rust fmt & test](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml/badge.svg)](https://github.com/b-d-e/rustacean/actions/workflows/rust.yml)
+[![rust-clippy analyze](https://github.com/b-d-e/rustacean/actions/workflows/rust-clippy.yml/badge.svg)](https://github.com/b-d-e/rustacean/actions/workflows/rust-clippy.yml)
 
 This repo is here to follow my progress learning the [Rust](https://www.rust-lang.org/) programming language.
 
