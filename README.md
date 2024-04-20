@@ -117,9 +117,9 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [ ] 20.3. Graceful Shutdown and Cleanup
 
 </td>
-<td>
+<td style="vertical-align: top;">
 
-- [ ] **0. Intro*
+- [ ] **0. Intro**
 - [ ] **1. Variables**
 - [ ] **2. Functions**
 - [ ] **3. If**
