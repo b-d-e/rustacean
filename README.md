@@ -119,32 +119,31 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 </td>
 <td>
 
-**
-- [ ] 0. intro <br>
-- [ ] 1. variables <br>
-- [ ] 2. functions <br>
-- [ ] 3. if <br>
-- [ ] 4. primitive_types <br>
-- [ ] 5. vecs <br>
-- [ ] 6. move_semantics <br>
-- [ ] 7. structs <br>
-- [ ] 8. enums <br>
-- [ ] 9. strings <br>
-- [ ] 10. modules <br>
-- [ ] 11. hashmaps <br>
-- [ ] 12. options <br>
-- [ ] 13. error_handling <br>
-- [ ] 14. generics <br>
-- [ ] 15. traits <br>
-- [ ] 16. lifetimes <br>
-- [ ] 17. tests <br>
-- [ ] 18. iterators <br>
-- [ ] 19. smart_pointers <br>
-- [ ] 20. threads <br>
-- [ ] 21. macros <br>
-- [ ] 22. clippy <br>
-- [ ] 23. conversions <br>
-**
+- [ ] **0. Intro*
+- [ ] **1. Variables**
+- [ ] **2. Functions**
+- [ ] **3. If**
+- [ ] **4. Primitive Types**
+- [ ] **5. Vecs**
+- [ ] **6. Move Semantics**
+- [ ] **7. Structs**
+- [ ] **8. Enums**
+- [ ] **9. Strings**
+- [ ] **10. Modules**
+- [ ] **11. Hashmaps**
+- [ ] **12. Options**
+- [ ] **13. Error Handling**
+- [ ] **14. Generics**
+- [ ] **15. Traits**
+- [ ] **16. Lifetimes**
+- [ ] **17. Tests**
+- [ ] **18. Iterators**
+- [ ] **19. Smart Pointers**
+- [ ] **20. Threads**
+- [ ] **21. Macros**
+- [ ] **22. Clippy**
+- [ ] **23. Conversions**
+
 
 </td>
 </tr>
