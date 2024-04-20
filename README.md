@@ -12,15 +12,9 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 
 ---
 
-## Progress Tracker
+# Progress Tracker
 
-<table>
-<tr>
-<th> Rust Book </th>
-<th> Rustlings Exercises </th>
-</tr>
-<tr>
-<td>
+## Rust Book
 
 - [x] **1. [Getting Started](1/)**
   - [x] 1.1. Installation
@@ -116,8 +110,7 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [ ] 20.2. Turning Our Single-Threaded Server into a Multithreaded Server
   - [ ] 20.3. Graceful Shutdown and Cleanup
 
-</td>
-<td style="vertical-align: top;">
+## Rustlings Exercises
 
 - [ ] **0. Intro**
 - [ ] **1. Variables**
@@ -143,8 +136,3 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 - [ ] **21. Macros**
 - [ ] **22. Clippy**
 - [ ] **23. Conversions**
-
-
-</td>
-</tr>
-</table>
