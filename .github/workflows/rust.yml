@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Install recursive
+      run: cargo install cargo-recursive
     - name: Check formatting
       run: cargo recursive fmt --verbose
     - name: Run tests
