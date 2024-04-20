@@ -119,30 +119,32 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 </td>
 <td>
 
-- [ ] 00_intro
-- [ ] 01_variables
-- [ ] 02_functions
-- [ ] 03_if
-- [ ] 04_primitive_types
-- [ ] 05_vecs
-- [ ] 06_move_semantics
-- [ ] 07_structs
-- [ ] 08_enums
-- [ ] 09_strings
-- [ ] 10_modules
-- [ ] 11_hashmaps
-- [ ] 12_options
-- [ ] 13_error_handling
-- [ ] 14_generics
-- [ ] 15_traits
-- [ ] 16_lifetimes
-- [ ] 17_tests
-- [ ] 18_iterators
-- [ ] 19_smart_pointers
-- [ ] 20_threads
-- [ ] 21_macros
-- [ ] 22_clippy
-- [ ] 23_conversions
+**
+- [ ] 0. intro <br>
+- [ ] 1. variables <br>
+- [ ] 2. functions <br>
+- [ ] 3. if <br>
+- [ ] 4. primitive_types <br>
+- [ ] 5. vecs <br>
+- [ ] 6. move_semantics <br>
+- [ ] 7. structs <br>
+- [ ] 8. enums <br>
+- [ ] 9. strings <br>
+- [ ] 10. modules <br>
+- [ ] 11. hashmaps <br>
+- [ ] 12. options <br>
+- [ ] 13. error_handling <br>
+- [ ] 14. generics <br>
+- [ ] 15. traits <br>
+- [ ] 16. lifetimes <br>
+- [ ] 17. tests <br>
+- [ ] 18. iterators <br>
+- [ ] 19. smart_pointers <br>
+- [ ] 20. threads <br>
+- [ ] 21. macros <br>
+- [ ] 22. clippy <br>
+- [ ] 23. conversions <br>
+**
 
 </td>
 </tr>
