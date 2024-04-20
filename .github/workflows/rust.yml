@@ -19,6 +19,6 @@ jobs:
     - name: Install recursive
       run: cargo install cargo-recursive
     - name: Check formatting
-      run: .github/workflows/check_format.sh
+      run: .github/scripts/check_format.sh
     - name: Run tests
       run: cargo recursive test --verbose
