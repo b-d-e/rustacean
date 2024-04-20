@@ -19,6 +19,6 @@ jobs:
     - name: Install recursive
       run: cargo install cargo-recursive
     - name: Check formatting
-      run: cargo recursive fmt --verbose
+      run: cargo recursive -x "cargo fmt --check"
     - name: Run tests
       run: cargo recursive test --verbose
