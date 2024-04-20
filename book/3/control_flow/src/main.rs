@@ -4,7 +4,7 @@ fn main() {
 
     // if lets you branch on condition - provide condition, state, and optionally else state
     let number = 3;
-    
+
     // condition - MUST be a bool - e.g. if number { } would break
     // unlike js / ruby / etc, will not auto convert non bool types to bool. must be explicit with
     // a condition
@@ -37,19 +37,19 @@ fn main() {
 
     println!("The value of number is: {number}");
 
-
     // repetition with loops
     // rust provides several loops - loop, while, and for
-    
-    loop { 
+
+    loop {
         println!("again!");
-        break // to run next line
+        break; // to run next line
     } // break out with ^C. programmatically break with 'break' keyword.
       // use 'continue' to skip over any remaining code in the iteration and go to next iteration
-    
+
     let mut counter = 0;
 
-    let result = loop { // assign output of loop to variable
+    let result = loop {
+        // assign output of loop to variable
         counter += 1;
 
         // keep going until condition is met
@@ -85,7 +85,6 @@ fn main() {
     }
     println!("End count = {count}");
 
-
     // conditional loops with while
     // rather than evaluating condition within loop, do it in definition with a while loop
     let mut number = 3;
@@ -120,8 +119,9 @@ fn main() {
     // this means for loops are most commonly used rust loop construct
     // even in situations where in other languages, we'd use a while loop
     // i.e. above example with for:
-    for number in (1..4).rev() { // use a range to generate collection, reverse it with rev method,
-                                 // then
+    for number in (1..4).rev() {
+        // use a range to generate collection, reverse it with rev method,
+        // then
         println!("{number}!");
     }
 }
