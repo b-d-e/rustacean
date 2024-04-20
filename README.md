@@ -13,12 +13,11 @@ I'm writing these in vim (all being well), partially to force myself to not rely
 
 ![image](https://mir-s3-cdn-cf.behance.net/project_modules/disp/7df0bd42774743.57ee5f32bd76e.gif)
 
-<sup>_'[Rustacean](https://www.behance.net/gallery/42774743/Rustacean)' animation by [Refracted Color](https://www.behance.net/refractedcolor) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._</sup>
+---
 
 # Progress Tracker
-_Jump to [Rust Book Examples](#rust-book-examples) or [Rustlings Exercises](#rustlings-exercises)_.
 
-## Rust Book Examples
+## Rust Book
 
 - [x] **1. [Getting Started](1/)**
   - [x] 1.1. Installation
@@ -114,12 +113,12 @@ _Jump to [Rust Book Examples](#rust-book-examples) or [Rustlings Exercises](#rus
   - [ ] 20.2. Turning Our Single-Threaded Server into a Multithreaded Server
   - [ ] 20.3. Graceful Shutdown and Cleanup
 
-## Rustlings Exercises
+## Rustlings Exercises
 
-- [ ] **0. Intro**
-- [ ] **1. Variables**
-- [ ] **2. Functions**
-- [ ] **3. If**
+- [x] **0. [Intro](/rustlings/exercises/intro)**
+- [x] **1. [Variables](/rustlings/exercises/variables)**
+- [x] **2. [Functions](/rustlings/exercises/functions)**
+- [x] **3. [If](/rustlings/exercises/if)**
 - [ ] **4. Primitive Types**
 - [ ] **5. Vecs**
 - [ ] **6. Move Semantics**

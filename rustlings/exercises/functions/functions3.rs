@@ -3,10 +3,9 @@
 // Execute `rustlings hint functions3` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {
-    call_me();
+    call_me(999); // 0118, 999, 881, 999, 119, 725...3 would have done this if it fit in a u32 :(
 }
 
 fn call_me(num: u32) {
