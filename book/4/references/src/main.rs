@@ -13,13 +13,13 @@ fn main() {
     println!("The value is now '{}'", s2);
 }
 
-fn calculate_length(s: &String) -> usize { // make sure there's an ampersand here too!
+fn calculate_length(s: &String) -> usize {
+    // make sure there's an ampersand here too!
     s.len()
-        // value pointed to by reference goes out of scope
-        // but because it doesn't have ownership over what it refers to, it is NOT dropped
-        // never owned it, so do not need to return it!
+    // value pointed to by reference goes out of scope
+    // but because it doesn't have ownership over what it refers to, it is NOT dropped
+    // never owned it, so do not need to return it!
 }
-
 
 // we can dereference with operator * - more in chapter 8
 //
@@ -40,8 +40,6 @@ fn mutchange(some_string: &mut String) {
     some_string.push_str(", world");
 }
 
-
-
 // big restriction of mutable references
 // if you have one mutable reference, you can have NO other references to that variable
 //
@@ -53,7 +51,7 @@ fn mutchange(some_string: &mut String) {
 //   let r2 = &mut s;
 //   println!("{}, {}", r1, r2);
 //
-//  so, we have mutability, but only in a very controlled way. 
+//  so, we have mutability, but only in a very controlled way.
 //  this is a pretty different paradigm of working to most languages
 //
 //  the benefit is we can prevent race conditions at compile time
@@ -70,7 +68,6 @@ fn multimut() {
 
     let r2 = &mut s;
 }
-
 
 // we also cannot have immutable references together with mutable ones. similar error produced.
 //
@@ -92,7 +89,7 @@ fn allowed() {
 
 // normally, we have to be careful with DANGLING POINTERS
 // this references a location that may have been given to something else
-// but again, rustc comes to the rescue and won't let us have these - e.g. 
+// but again, rustc comes to the rescue and won't let us have these - e.g.
 
 fn dangle() -> &String {
     let s = String::from("hello");
@@ -102,4 +99,3 @@ fn dangle() -> &String {
 
 // will error
 // solution - just return 's', not '&s'
-
