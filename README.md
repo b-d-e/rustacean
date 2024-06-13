@@ -33,10 +33,10 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [x] 3.3. [Functions](book/3/functions/src/main.rs)
   - [x] 3.4. [Comments](book/3/comments/src/main.rs)
   - [x] 3.5. [Control Flow](book/3/control_flow/src/main.rs)
-- [ ] **4. Understanding Ownership**
+- [x] **4. Understanding Ownership**
   - [x] 4.1. What is Ownership?
   - [x] 4.2. References and Borrowing
-  - [ ] 4.3. The Slice Type
+  - [x] 4.3. The Slice Type
 - [ ] **5. Using Structs to Structure Related Data**
   - [ ] 5.1. Defining and Instantiating Structs
   - [ ] 5.2. An Example Program Using Structs
