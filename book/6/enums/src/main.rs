@@ -5,18 +5,16 @@ fn main() {
     route(IpAddrKind::V4);
     route(IpAddrKind::V6);
 
-    let home = IpAddr::V4(127,0,0,1);
+    let home = IpAddr::V4(127, 0, 0, 1);
     let loopback = IpAddr::V6(String::from("::1"));
     // ^ attach data to each variant of enum directly
     // so no need for an extra struct
     // name of each enum type also becomes a constructor function, e.g. V4()
     // we can also have different variants of different types
-    
+
     // IP addresses are also supported in the standard library, using enum structs
     // here though, we can create our own versions without conflict as we haven't brought std lib
     // into scope
-    
-
 }
 
 enum IpAddrKind {
@@ -41,7 +39,6 @@ fn instantiate() {
 // so can use in type signature
 fn route(ip_kind: IpAddrKind) {}
 
-
 // --------
 
 enum Message {
@@ -54,10 +51,10 @@ enum Message {
 // similar to defining lots of structs, but here they're all grouped together
 
 impl Message {
-        fn call(&self) {
-            // method body would be defined here
-        }
+    fn call(&self) {
+        // method body would be defined here
     }
+}
 
 fn messaging() {
     let m = Message::Write(String::from("hello"));

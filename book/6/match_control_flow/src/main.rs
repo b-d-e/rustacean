@@ -8,7 +8,6 @@ fn main() {
     let five = Some(5);
     let six = plus_one(five);
     let none = plus_one(None);
-    
 }
 
 enum Coin {
@@ -20,7 +19,7 @@ enum Coin {
 
 fn value_in_cents(coin: Coin) -> u8 {
     match coin {
-        // each 'arm' has two parts - pattern and code to return 
+        // each 'arm' has two parts - pattern and code to return
         Coin::Penny => {
             println!("Lucky penny!");
             1
@@ -62,10 +61,9 @@ fn value_in_cents_2(coin: Coin_2) -> u8 {
 fn plus_one(x: Option<i32>) -> Option<i32> {
     match x {
         None => None,
-          Some(i) => Some(i + 1),
-      }
-  }
-
+        Some(i) => Some(i + 1),
+    }
+}
 
 // matches must be exhaustive - the arms patterns have to cover all possibilities
 // compiler will complain if you don't check them all
