@@ -11,12 +11,13 @@ struct Rectangle {
 // to define method on struct, start an impl (implementation) block
 // everything in here only gets associated with the rectangle type
 impl Rectangle {
-    fn area(&self) -> u32 { // i.e. area is specific to rectangle
-                            // only parameter in signature needs to be self - OO style
-                            // &self actually gets parsed as self: &Self - it is an alias
-                            // methods must have self parameter first
-                            // note, still need to make a borrowed item with &
-                            // methods can also borrow self mutably!
+    fn area(&self) -> u32 {
+        // i.e. area is specific to rectangle
+        // only parameter in signature needs to be self - OO style
+        // &self actually gets parsed as self: &Self - it is an alias
+        // methods must have self parameter first
+        // note, still need to make a borrowed item with &
+        // methods can also borrow self mutably!
         self.width * self.height
     }
 
@@ -25,7 +26,8 @@ impl Rectangle {
         self.width > 0
     }
 
-    fn can_hold(&self, other: &Rectangle) -> bool { // takes another instance of a rectangle
+    fn can_hold(&self, other: &Rectangle) -> bool {
+        // takes another instance of a rectangle
         self.width > other.width && self.height > other.height
     }
 
@@ -53,9 +55,7 @@ fn main() {
         rect1.area()
     );
 
-    println!("It is {} that the rectangle has width.",
-             rect1.width()
-    );
+    println!("It is {} that the rectangle has width.", rect1.width());
     if rect1.width() {
         println!("The rectangle has a nonzero width; it is {}", rect1.width);
     }
@@ -63,7 +63,7 @@ fn main() {
     // often, setting method with same name as field means we just want to return the value - a
     // 'getter' which rust does not implement be default. this will be useful when we think about
     // public vs private methods in chapter 7
-    
+
     // unlike C or C++, we don't need to think about whether we are applying a method to a value vs
     // a reference (. vs ->). Here, rust does automatic referencing a dereferencing) for methods
     // (and not much else). i.e., the two below lines are identical in compiled behaviour:

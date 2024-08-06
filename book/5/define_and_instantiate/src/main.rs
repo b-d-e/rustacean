@@ -1,6 +1,7 @@
-struct User { // Struct is similar to a tuple (multiple items, different types allowed), but
-              // different in that each peice of data is explicitly named
-              // => don't have to rely on item order to access
+struct User {
+    // Struct is similar to a tuple (multiple items, different types allowed), but
+    // different in that each peice of data is explicitly named
+    // => don't have to rely on item order to access
     active: bool,
     username: String,
     email: String,
@@ -9,8 +10,9 @@ struct User { // Struct is similar to a tuple (multiple items, different types a
 
 fn main() {
     // to use a struct, we create an instance of it, specifying values for fields
-    let mut user1 = User { // make sure to make mutable if wanting to change values! n.b. WHOLE
-                           // instance must be mutable, not item
+    let mut user1 = User {
+        // make sure to make mutable if wanting to change values! n.b. WHOLE
+        // instance must be mutable, not item
         active: true,
         username: String::from("user123"),
         email: String::from("a@b.com"),
@@ -22,25 +24,22 @@ fn main() {
     // generate instances from other instances - use Struct Update
     let user2 = User {
         email: String::from("newemail@domain.co"), // changed values MUST come first
-        ..user1 // take same values if not specified here
+        ..user1                                    // take same values if not specified here
     }; // far more elegant than doing, e.g., user1.active, user1.username, etc
-    
+
     // assingment-like '=', meaning data is moved - i.e. user1 as a whole can no longer be used, as
-    // String type is borrowed NOT copied. 
+    // String type is borrowed NOT copied.
     // if just retaining active and sign_in_count, we would still be able to use user1, as bools
     // and u64 implement the copy trait (not stored on heap)
-    
-    
+
     // calls of other things
     build_user("user@name.com".to_string(), "username".to_string());
     better_build_user("user@name.com".to_string(), "username".to_string());
-    
-    main2();
 
+    main2();
 
     unitstruct()
 }
-
 
 // un-rusty way to build through function
 fn build_user(email: String, username: String) -> User {
@@ -62,7 +61,6 @@ fn better_build_user(email: String, username: String) -> User {
     }
 }
 
-
 // TUPLE STRUCTS
 // these are structs that look similar to tuples
 // benefit from added meaning of Struct name, but don't have names associated with their fields,
@@ -73,13 +71,12 @@ struct Colour(i32, i32, i32);
 struct Point(i32, i32, i32);
 
 fn main2() {
-    let black = Colour(0,0,0); // we're assuming RGB is implicit in the fact it is a colour
-    let origin = Point(0,0,0); // similarly, some X,Y,Z precedence is assumed
+    let black = Colour(0, 0, 0); // we're assuming RGB is implicit in the fact it is a colour
+    let origin = Point(0, 0, 0); // similarly, some X,Y,Z precedence is assumed
 
     // so why use structs at all - for the names. e.g., can define function that will only accept
     // Colour, so can't accidentally pass a Point in
     // each struct is it's own type, even if consituent fields are identically typed
-    
 }
 
 // Unit-Like Structs
