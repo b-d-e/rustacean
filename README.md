@@ -37,14 +37,14 @@ I'm writing these in vim (all being well), partially to force myself to not rely
   - [x] 4.1. What is Ownership?
   - [x] 4.2. References and Borrowing
   - [x] 4.3. The Slice Type
-- [ ] **5. Using Structs to Structure Related Data**
-  - [ ] 5.1. Defining and Instantiating Structs
-  - [ ] 5.2. An Example Program Using Structs
-  - [ ] 5.3. Method Syntax
-- [ ] **6. Enums and Pattern Matching**
-  - [ ] 6.1. Defining an Enum
-  - [ ] 6.2. The match Control Flow Construct
-  - [ ] 6.3. Concise Control Flow with if let
+- [x] **5. Using Structs to Structure Related Data**
+  - [x] 5.1. Defining and Instantiating Structs
+  - [x] 5.2. An Example Program Using Structs
+  - [x] 5.3. Method Syntax
+- [x] **6. Enums and Pattern Matching**
+  - [x] 6.1. Defining an Enum
+  - [x] 6.2. The match Control Flow Construct
+  - [x] 6.3. Concise Control Flow with if let
 - [ ] **7. Managing Growing Projects with Packages, Crates, and Modules**
   - [ ] 7.1. Packages and Crates
   - [ ] 7.2. Defining Modules to Control Scope and Privacy
